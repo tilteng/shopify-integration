@@ -1,0 +1,87 @@
+[data-tilt-loaded="1"] .bottom-cell {
+    opacity:1;
+    visibility:visible;
+}
+.bottom-cell {
+    -webkit-transition: opacity 0.95s ease-in-out;
+    -moz-transition:    opacity 0.95s ease-in-out;
+    -ms-transition:     opacity 0.95s ease-in-out;
+    -o-transition:      opacity 0.95s ease-in-out;
+    transition:         opacity 0.95s ease-in-out;
+    opacity:0;
+    visibility:hidden;
+    width: 240px;
+    margin: 0 auto;
+}
+.bottom-cell .price {
+    color: #FDA1BF;
+    font-weight: bold;
+    text-align: left;
+    float: left;
+    font-size: 19px;
+    margin-top: 18px;
+}
+.bottom-cell .tilt-btn {
+    float: left;
+    width: 149px;
+    border: 2px solid #eee;
+    padding: 5px;
+    margin-top: 9px;
+    color: #a3a3a3;
+    line-height: 24px;
+    text-decoration: none;
+    background: white;
+    font-weight: bold;
+    margin-left: 17px;
+    font-size: 15px;
+}
+.bottom-cell .tilt-btn span {
+    background-image: url(https://dfzwuiceix8tu.cloudfront.net/assets/tilt-circle-large-562e34d918617164820d6be4389b6cda.png);
+    float: right;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    margin-top: 2px;
+    margin-right: 6px;
+}
+.bottom-cell .quantity {
+    clear: both;
+    color: #999;
+    width: 100%! important;
+    font-style: italic;
+}
+.bottom-cell .quantity span {
+    font-weight: bold;
+}
+.tilt_bar {
+    overflow: visible!important;
+    margin-top: 12px;
+    width: 234px;
+    margin-bottom: 12px;
+}
+.tilt_bar > div {
+    background-color: #00a0d8!important;
+    width:0px;
+    -webkit-transition: width 3s ease-in-out;
+    -moz-transition:    width 3s ease-in-out;
+    -ms-transition:     width 3s ease-in-out;
+    -o-transition:      width 3s ease-in-out;
+    transition:         width 3s ease-in-out;
+    border-radius: 5px;
+}
+.tilt_bar > div::after {
+    content: ' ';
+    background-image: url(https://assets.tilt.com/built/19e0f6095c271ed9ec55ef4c227ecfa8.png);
+    -webkit-background-size: 101px 188px;
+    background-size: 101px 188px;
+    box-sizing: content-box;
+    z-index: 3;
+    background-position: -45px -120px;
+    top: -4px;
+    width: 18px;
+    height: 18px;
+    margin-right: -4px;
+    margin-top: -5px;
+    border-radius: 5px;
+    float: right;
+}
